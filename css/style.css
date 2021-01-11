@@ -1,0 +1,477 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.top{
+    width: 100%;
+    background-color: black;
+    z-index: 1;
+    position: fixed;
+    padding: 15px 0px;
+
+}
+.container{
+    max-width: 950px;
+    margin: 0 auto;
+}
+nav{
+    position: relative;
+   /* background-color: burlywood;*/
+}
+.logo{
+    float: left;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: crimson;
+}
+ul{
+    float: right;
+    list-style: none;
+}
+ul li{
+    float: left;
+    margin: 15px 7px;
+}
+ul li a{
+    text-decoration: none;
+     margin-top: 10px;
+     padding: 0px 10px;
+     font-size: 15px;
+     text-transform: uppercase;
+     color: white;
+     transition: all 1s ease-in-out 0.2s;
+
+}
+ ul li a:hover{
+     color: red;
+     border-top: 1px solid red;
+     border-bottom: 1px solid red;
+ }
+  nav .fa{
+    margin-top: 10px;
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+nav .fa:hover{
+    color: red;
+
+}
+ nav .fa-navicon{
+    float: right;
+    display: none;
+}
+/*********************************banner******/
+.banner{
+    width: 100%;
+    /*height: 50vh;*/
+   background-image: url(../img/hero-bg.jpg);
+    background-position: left;
+    background-size: cover;
+     padding: 200px 0px;
+     
+    
+     
+     
+}
+.box{
+    text-align: center;
+    color: white;
+}
+.box h5{
+    color: whitesmoke;
+    font-size: 20px;
+}
+.box h1{
+    padding: 30px ;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn{
+    width: 160px;
+   /* height: 30px;*/
+    border: none;
+    padding: 15px;
+    text-transform: uppercase;
+    outline: none;
+    color: white;
+    font-family: sans-serif;
+    background-color: transparent;
+    
+    font-size: 15px;
+    font-weight: 600;
+}
+.btn2{
+    color:tomato;
+    border: 1px solid tomato;
+}
+.btn2:hover{
+    color: white;
+    border-color: black;
+    background-color: black;
+}
+/***********************poster*************/
+.poster{
+    width: 100%;
+    color: white;
+    background-color: black;
+    padding: 100px 0px;
+    
+}
+.about{
+    background-color:#b3b3b84f;
+    padding: 55px 0px;
+}
+.working{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-self: center;
+    
+    
+}
+.member{
+    width: 45%;
+    border-right: 2px solid rgb(231, 221, 221);
+}
+.member h1{
+    font-size: 45px;
+    margin: 10px 0px;
+
+}
+.member h3{
+    margin: 10px 0px;
+}
+.member p{
+    line-height: 33px;
+    font-size: 20px;
+    padding: 20px 0px;
+    font-family: sans-serif;
+
+}
+.btn3{
+    width: 396px;
+    font-size: 15px;
+    border: 2px solid tomato;
+    color: white;
+    background-color: tomato;
+}
+.time{
+    width: 45%;
+}
+.time h1{
+    margin: 20px 0px;
+}
+.time h3,p{
+    padding: 10px ;
+}
+.hello{
+    width: 35%;
+   /* padding: 100px 0px;*/
+}
+.mary{
+    width: 29%;
+   /* padding-top: 70px;*/
+    background-color: snow;
+    border-radius: 4px;
+    
+}
+.hello h1{
+    font-size: 35px;
+    padding: 15px 0px;
+
+}
+.hello p{
+    line-height:25px ;
+}
+.mary h5{
+    padding:5px 50px  ;
+    font-size: 25px;
+}
+.mary p{
+    display: inline-block;
+    padding:5px 2px 5px 50px ;
+    font-size: 20px;
+   /* margin-right: 100px;*/
+       
+}
+.mary span{
+    font-size: 25px;
+    color: orangered;
+    margin-left: 10px;
+}
+.mary span:hover{
+    color: tomato;
+}
+
+.mary img{
+    width: 100%;
+}
+/************classes***/
+.class{
+    
+    padding: 25px 0px;
+    background-color:gainsboro;
+       
+}
+.class h6,h1{
+    text-align: center;
+    padding:10px 0px;
+    font-size: 20px;
+    
+}
+.class h1{
+    font-size: 35px;
+    padding-bottom: 25px;
+}
+.training{
+    width: 30%;
+    float: left;
+    margin-left: 30px;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 5px 3px;
+    transition: all 0.1s ease-out 0.2s;
+}
+.training:hover{
+   background-color: rgb(59, 58, 58);
+   color: white;
+}
+.training h2{
+    padding: 7px 10px;
+}
+.training a{
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: grey;
+}
+.training p{
+    padding: 10px;
+    line-height: 35px;
+    font-weight: 700;
+}
+.training img{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.training span{
+    background-color: orangered;
+    font-size: 25px;
+    font-weight: 900;
+    color: white;
+    margin-left: 70px;
+    padding-top: 5px;
+    border-radius: 100%;
+    padding: 10px;
+}
+/*********************************form*/
+.contact{
+ /*background-color: thistle;*/
+ /*padding: 28px 0px;*/
+ margin-top: 80px;
+ display: flex;
+}
+
+.feel{
+    width: 45%;
+}
+form h1{
+    text-align: left;
+    margin-left: 28px;
+    font-size: 45px;
+    
+}
+input[type="text"] ,[type="email"],[type="submit"],textarea{
+    display: block;
+    width: 80%;
+    margin: 20px;
+    height: 35px;
+    
+}
+textarea{
+    padding: 50px 0px;
+}
+input[type="submit"]{
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+input[type="submit"]:hover{
+    background-color: tomato;
+}
+::-webkit-input-placeholder{
+    font-size: 17px;
+    padding-left: 10px;
+}
+.right{
+    width: 45%;
+    
+}
+.right img{
+    width: 100%;
+}
+.right h1{
+    font-size: 30px;
+}
+.right span{
+    font-size: 25px;
+    color: tomato;
+    padding: 15px;
+}
+.right a{
+    /*padding-left: 20px;*/
+    font-size: 20px;
+    text-transform: capitalize;
+    color: gray;
+     
+   
+    
+}
+iframe{
+    width: 100%;
+    height: 260px;
+    margin-top: 20px;
+    border: none;
+    
+}
+footer{
+    /*background-color: yellow;*/
+    /*margin-top: 35px;*/
+    color: gray;
+      padding:40px 0px 50px 0px;}
+footer h1{
+    font-size: 18px;
+    text-align: left;
+    margin-right: 70px;
+    margin-top: 10px;
+    display: inline-block;
+    
+    font-weight: 200;
+}
+footer span{
+    color: tomato;
+    padding: 15px 10px;
+    font-size: 10px;
+    
+}
+
+@media only screen and (max-width:715px){
+    ul{
+        position: absolute;
+        display: none;
+       top: 60px;
+       /* float: left;*/
+        width: 100%;
+       
+       background-color: black;
+        
+       
+    }
+    .logo{
+        margin-left: 10px;
+        
+        
+    }
+    ul li{
+        
+        display: block;
+        float: none;
+        margin-left: 210px;
+       
+    }
+    nav .icon {
+        
+        background-color: crimson;
+        float: left;
+        clear: both;
+        transition: all 1s ease-in-out 0.2s;
+              
+    }
+    nav .icon:hover{
+        width: 50px;
+        background-color: steelblue;
+    }
+    nav .fa-navicon{
+       display: block;
+       margin-right: 15px;
+        padding-bottom: 10px;
+    }
+    .banner{
+        background-position: center;
+        padding: 100px 0px;
+    }
+    .box h1{
+        font-size: 34px;
+    }
+    .working{
+        display: block;
+        
+    }
+    .member{
+        width: 90%;
+        border: none;
+        margin: 25px 10px;
+    }
+    .time{
+        width: 90%;
+        margin: 25px 10px;
+    }
+    .hello,.mary{
+        width: 90%;
+        margin: 15px auto;
+        padding: 0px 0px;
+        
+    }
+    .training{
+        width: 90%;
+        float: none;
+        margin: 10px auto;
+          
+        
+        
+    }
+    .feel{
+        width: 95%;
+        clear: both;
+        margin: 0px auto;
+    }
+    input[type="text"] ,[type="email"],[type="submit"],textarea{
+        width: 90%;
+        border: 1px solid gray;
+    }
+    .right{
+        width: 95%;
+        margin: 0px auto;
+         
+               
+    }
+    .right a{
+        display: inline-block;
+    }
+   
+   
+    .contact{
+        display: block;
+        padding: 10px 0px;
+    }
+    footer h1{
+        margin-left: 15px;
+    }
+   
+   
+}
